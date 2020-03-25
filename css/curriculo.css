@@ -57,6 +57,8 @@ img {
   display: block;
   width: 100%;
   height: auto;
+  font-size: 0.5em;
+  color: #FFF;
 }
 
 .navbar {
@@ -92,13 +94,15 @@ img {
     flex-direction: column;
     width: 100%;
   }
+  section {
+    min-height: 100vh;
+  }
 }
 
 section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
   max-width: 75rem;
-  min-height: 100vh;
 }
 
 section .fecha {
@@ -117,4 +121,41 @@ section .fecha {
 
 a {
   color: #840CCC;
+}
+
+
+
+a.popup {
+  outline: none;
+}
+
+a.popup strong {
+  line-height: 30px;
+}
+
+a.popup:hover {
+  text-decoration: none;
+}
+
+a.popup span {
+  z-index: 10;
+  display: none;
+  padding: 14px 20px;
+  margin-top: -30px;
+  margin-left: 28px;
+  width: 300px;
+  line-height: 16px;
+}
+
+a.popup:hover span {
+  display: inline;
+  position: absolute;
+  color: #FFF;
+  border: 1px solid #DCA;
+  background: #420666;
+}
+
+a.popup span {
+  border-radius: 4px;
+  box-shadow: 5px 5px 8px #CCC;
 }
