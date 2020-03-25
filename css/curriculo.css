@@ -1,0 +1,120 @@
+body {
+  color: #888888;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: #420666;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 3.5rem;
+}
+
+#acercaDe p {
+  font-size: 1.15rem;
+  font-weight: 500;
+}
+
+.subtitulo {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.icono a, .icono li {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #666777;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+}
+
+.icono a:hover {
+  background-color: #420666;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.navbar {
+  background-color: #420666;
+  font-weight: bold;
+}
+
+@media (min-width: 992px) {
+  #navBar {
+    text-align: center;
+    flex-direction: column;
+    width: 12rem;
+    height: 100vh;
+  }
+  #navBar .cabecera {
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+  #navBar .cabecera img {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid;
+    border-color: #630999;
+    margin-top: auto;
+  }
+  #navBar .navbar-collapse {
+    display: flex;
+    flex-grow: 0;
+    margin-bottom: auto;
+  }
+  #navBar .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+  min-height: 100vh;
+}
+
+section .fecha {
+  min-width: none;
+}
+
+@media (min-width: 768px) {
+  section .fecha {
+    min-width: 18rem;
+  }
+}
+
+.text-primary {
+  color: #840CCC !important;
+}
+
+a {
+  color: #840CCC;
+}
