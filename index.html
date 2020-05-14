@@ -13,15 +13,10 @@
 
 
     <!-- JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<script src="./index.js"></script>
 </head>
 
 <body id="tope">
@@ -57,15 +52,16 @@
         </div>
     </nav>
 
-    <!-- lo mio -->
     <div class="container-fluid p-3">
-        <section class="p-3 p-lg-5 align-items-center d-flex">
+		<!-- acerca de -->
+        <section class="p-3 p-lg-5 align-items-center d-flex" id="acercaDe">
             <div class="w-100">
-                <h1 class="mt-sm-5 mt-md-5 mb-3">Luis Fernando</h1>
+                <h1 class="mt-sm-5 mt-5 mb-3">Luis Fernando</h1>
                 <h1 class="text-primary">Cárdenas Vega</h1>
-                <div class="subtitulo mb-5">
-                    Vahía Cueta - Infonavit Cañadas, (672) 125-1430 -
-                    <a href="mailto:lf-cardenas@hotmail.com">lf-cardenas@hotmail.com</a>
+                <div class=" subtitulo mb-5">
+                    Vahía Cueta - Infonavit Cañadas, (672) 125-1430
+                    <br />
+					<a href="mailto:lf-cardenas@hotmail.com">lf-cardenas@hotmail.com</a>
                 </div>
                 <p class="mb-5">
                     Soy un estudiante entusiasta de la tecnología que siempre está gustoso por
@@ -83,16 +79,20 @@
                     <a href="https://twitter.com/P_Luizon">
                         <img src="img/twitter.png" alt="twitter">
                     </a>
-                    <a onclick="alert('Búscame como P_Luizon#6080 en Discord :)')" title="Búscame como P_Luizon#6080 en Discord :)">
+                    <a title="Discord"
+						data-toggle="popover"
+						data-content="Búscame como P_Luizon#6080 en Discord :)"
+					>
                         <img src="img/discord.png" alt="discord">
                     </a>
                 </div>
             </div>
         </section>
 
+        <!-- experiencia -->
         <section class="p-3 p-lg-5 d-flex align-items-center" id="experiencia">
             <div class="w-100">
-                <h2 class="mt-sm-5 mt-md-5 mb-5">Experiencia</h2>
+                <h2 class="mt-sm-5 mt-md-5">Experiencia</h2>
 
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div >
@@ -144,9 +144,10 @@
             </div>
         </section>
 
+		<!-- educación -->
         <section class="p-3 p-lg-5 d-flex align-items-center" id="educacion">
             <div class="w-100">
-                <h2 class="mt-sm-5 mt-md-5 mb-5">Educación</h2>
+                <h2 class="mt-sm-5 mt-md-5">Educación</h2>
 
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div >
@@ -164,9 +165,10 @@
             </div>
         </section>
 
+		<!-- habilidades -->
         <section class="p-3 p-lg-5 d-flex align-items-center" id="habilidades">
             <div class="w-100">
-                <h2 class="mt-sm-5 mt-md-5 mb-2">Habilidades</h2>
+                <h2 class="mt-sm-5 mt-md-5">Habilidades</h2>
 				<p class="mb-4">
 					Se hacer varias cosas y no se me da mal aprender algo nuevo,
 					no he trabajado en algo profesional pero trato siempre de llegar a la solución
@@ -174,7 +176,7 @@
 					Lo siguiente son algunas cosillas que he usado a lo largo de mi vida y que puedo
 					decir que puedo trabajar sin mayor dificultad.
 				<p>
-                <h3 class="subtitulo text-secondary">Lenguajes y herramientas</h3>
+                <h3 class="subtitulo text-secondary mb-3">Lenguajes y herramientas</h3>
                 <div class="icono">
                     <a title="CSS 3">
                         <img src="img/CSS3.png" alt="CSS 3" >
@@ -234,30 +236,33 @@
                     <li>
                         Aplicaciones de escritorio
                     </li>
+                    <li>
+                        Aplicaciones web
+                    </li>
                 </ul>
             </div>
-    </div>
-    </section>
-
-    <section class="p-3 p-lg-5 d-flex align-items-center" id="intereses">
-        <div class="w-100">
-            <h2 class="mt-sm-5 mt-md-5 mb-5">Intereses</h2>
-            <p>
-                Soy un apasionado natural por la <strong>música</strong> y los <strong>videojuegos</strong>. Siempre, desde niño,
-                he jugado <strong><u>videojuegos</u></strong> desde los flash y los de consolas pirata hasta los de consola
-                de última generación. Entre todas las compañías destaco mi inclinación por Nintendo,
-                pero perfectamente disfruto un juego en cualquier plataforma hecho por cualquier 
-                empresa o persona. <br />
-                Sobre la <strong><u>música</u></strong>, desde que soy niño me llama la atención, soñaba con armar una banda
-                con mis primos, pero ellos no estaban tan interesados y me quedé solo con mi sueño.
-                Aprendí a hacer melodías en un requinto de niño (entonces ni sabía que no era una guitarra)
-                y en una flauta también, aprendí más académicamente de música en la preparatoria cuando 
-                aprendí a tocar la guitarra y el piano. No soy ningún erudito, pero adoro la música 
-                y disfruto cualquier genero, incluso he hecho temas a modo de hobby, perfectamente reconozco
-                que no son buenos musicalmente pero disfruté hacerlos y algunos de ellos aún disfruto escucharlos.
-            </p>
-        </div>
-    </section>
-    </div>
+		</section>
+		
+		<!-- intereses -->
+		<section class="p-3 p-lg-5 d-flex align-items-center" id="intereses">
+			<div class="w-100">
+				<h2 class="mt-sm-5 mt-md-5">Intereses</h2>
+				<p>
+					Soy un apasionado natural por la <strong>música</strong> y los <strong>videojuegos</strong>. Siempre, desde niño,
+					he jugado <strong><u>videojuegos</u></strong> desde los flash y los de consolas pirata hasta los de consola
+					de última generación. Entre todas las compañías destaco mi inclinación por Nintendo,
+					pero perfectamente disfruto un juego en cualquier plataforma hecho por cualquier 
+					empresa o persona. <br />
+					Sobre la <strong><u>música</u></strong>, desde que soy niño me llama la atención, soñaba con armar una banda
+					con mis primos, pero ellos no estaban tan interesados y me quedé solo con mi sueño.
+					Aprendí a hacer melodías en un requinto de niño (entonces ni sabía que no era una guitarra)
+					y en una flauta también, aprendí más académicamente de música en la preparatoria cuando 
+					aprendí a tocar la guitarra y el piano. No soy ningún erudito, pero adoro la música 
+					y disfruto cualquier genero, incluso he hecho temas a modo de hobby, perfectamente reconozco
+					que no son buenos musicalmente pero disfruté hacerlos y algunos de ellos aún disfruto escucharlos.
+				</p>
+			</div>
+		</section>
+	</div>
 </body>
 </html>
