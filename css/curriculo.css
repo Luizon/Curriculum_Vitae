@@ -57,6 +57,9 @@ a {
 		font-size: 4.5em;
 		line-height: 1em;
 	}
+	h2 {
+		padding-top: .75em;
+	}
 	@media (max-width: 768px) {
 		h1 {
 			font-size: 3em;
@@ -137,12 +140,6 @@ img {
   section {
     min-height: 100vh;
   }
-}
-
-section {
-  padding-top: 10rem;
-  padding-bottom: 5rem;
-  max-width: 75rem;
 }
 
 section .fecha {
