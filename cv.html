@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo responsivo</title>
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="./cv.css" rel="stylesheet">
+
+
+    <!-- JS -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+	<script src="./index.js"></script>
+</head>
+
+<body id="tope">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navBar">
+        <a class="cabecera" href="#tope">
+            <span class="d-block d-lg-none">Luis Cárdenas</span>
+            <span class="d-none d-lg-block">
+                <img class="img-fluid rounded-circle mx-auto mb-2" src="img/fotoDePerfil.jpg" alt="">
+            </span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#tope">Acerca de</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experiencia">Experiencia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#educacion">Educacion</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#idiomas">Idiomas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#habilidades">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#intereses">Intereses</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid p-3">
+		<!-- acerca de -->
+        <section class="p-3 p-lg-5 align-items-center d-flex" id="acercaDe">
+            <div class="w-100">
+                <h1 class="mt-5 mb-3">Luis Fernando</h1>
+                <h1 class="text-primary">Cárdenas Vega</h1>
+                <div class=" subtitulo mb-5">
+                    Culiacán - Sinaloa - 80179, (672) 125-1430
+                    <br />
+					<a href="mailto:lf-cardenas@hotmail.com">lf-cardenas@hotmail.com</a>
+                </div>
+                <p class="mb-5">
+                    Soy un estudiante entusiasta de la tecnología que siempre está gustoso por
+                    aprender cosas nuevas. <br />
+                    Me desempeño normalmente en equipos pequeños y disfruto del desarrollo de software
+                    que las personas puedan disfrutar.
+                </p>
+                <div class="icono">
+                    <a href="https://github.com/luizon" title="GitHub" data-toggle="tooltip">
+                        <img src="img/github.png" alt="github">
+                    </a>
+                    <a href="https://www.facebook.com/P.Luizon.CV" title="Facebook" data-toggle="tooltip">
+                        <img src="img/facebook.png" alt="facebook">
+                    </a>
+			<!--
+                    <a href="https://twitter.com/P_Luizon" title="Twitter" data-toggle="tooltip">
+                        <img src="img/twitter.png" alt="twitter">
+                    </a>
+                    <a title="Discord"
+						data-toggle="popover"
+						data-content="Búscame como P_Luizon#6080 en Discord :)"
+						data-placement="bottom"
+					>
+                        <img src="img/discord.png" alt="discord"
+							title="Discord"
+							data-toggle="tooltip"
+							data-placement="top"
+						>
+                    </a> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- experiencia -->
+        <section class="d-flex align-items-center" id="experiencia">
+            <div class="w-100">
+                <h2 class="mt-sm-5 mt-md-5">Experiencia</h2>
+				
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div >
+                        <h3 class="mb-0">Analista CAT</h3>
+                        <div class="subtitulo mb-3">Coppel</div>
+                        <p>
+                            Actividades que desempeñé: <br />
+							<ul>
+								<li>
+									Atención a problemas internos.
+								</li>
+								<li>
+									Generación de reportes.
+								</li>
+								<li>
+									Consulta de base de datos.
+								</li>
+							</ul>
+                        </p>
+                    </div>
+                    <div class="fecha text-md-right">
+                        <span class="text-primary">Abril 2021 - Trabajo actual</span>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div >
+                        <h3 class="mb-0">Ejecutivo telefónico CAT</h3>
+                        <div class="subtitulo mb-3">Coppel</div>
+                        <p>
+                            Actividades que desempeñé: <br />
+							<ul>
+								<li>
+									Atención a clientes por chat.
+								</li>
+								<li>
+									Generación de reportes.
+								</li>
+								<li>
+									Trabajo en equipo para la resolución de problemáticas.
+								</li>
+							</ul>
+                        </p>
+                    </div>
+                    <div class="fecha text-md-right">
+                        <span class="text-primary">Agosto 2020 - Abril 2021</span>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div >
+                        <h3 class="mb-0">Asistencia a hackathon</h3>
+                        <div class="subtitulo mb-3">Hacking Minds</div>
+                        <p>
+                            Estuve en la primera edición de hackathon de Hacking Minds, siendo este
+                            mi primer hackathon, estuvo muy agradable. Aprendí mucho y me divertí.
+                        </p>
+                    </div>
+                    <div class="fecha text-md-right">
+                        <span class="text-primary">Marzo 2020</span>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div >
+                        <h3 class="mb-0">Asistencia a simposios</h3>
+                        <div class="subtitulo mb-3">SISeI</div>
+                        <p>
+                            He asistido a 4 simposios de SISeI, desde el 2016 hasta el 2019, que me han nutrido de conocimiento de la industria de las IT. <br />
+                            El simposio del 2019 tuvo sus visitas industriales en Guadalajara, dónde visitamos Amdocs y Tata.
+                        </p>
+                    </div>
+                    <div class="fecha text-md-right">
+                        <span class="text-primary">2016 - 2019</span>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div>
+                        <h3 class="mb-0">Desarrollo de multiples productos de software</h3>
+                        <div class="subtitulo mb-3">Por hobby</div>
+                        <p>
+                            He desarrollado para la escuela, para amigos y para mi mismo varios sistemas
+                            y productos de software de distintos tipos, desde juegos hasta paginas web, aplicaciones de escritorio,
+                            simuladores, entre otros.
+                        </p>
+                    </div>
+                    <div class="fecha text-md-right">
+                        <span class="text-primary">2012 - presente</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+		<!-- educación -->
+        <section class="p-lg-5 d-flex align-items-center" id="educacion">
+            <div class="w-100">
+                <h2 class="mt-sm-5 mt-md-5">Educación</h2>
+
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div >
+                        <h3 class="mb-0">Instituto Tecnológico de Culiacán</h3>
+                        <div class="subtitulo mb-3">Ingeniería en sistemas computacionales</div>
+                        <p>
+                            Especialidad de ingeniería en software.
+                        </p>
+                    </div>
+                    <div class="fecha text-md-right">
+                        <span class="text-primary">Junio 2016 - Presente</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+		<!-- idiomas -->
+        <section class="p-lg-5 d-flex align-items-center" id="idiomas">
+            <div class="w-100">
+                <h2 class="mt-sm-5 mt-md-5">Idiomas</h2>
+
+                <div class="row row-cols-1 row-cols-md-2">
+                    <div class="col">
+                        <h3 class="mb-0">Español</h3>
+                        <div class="subtitulo mb-3">Nativo</div>
+                    </div>
+                    <div class="col">
+                        <h3 class="mb-0">Inglés</h3>
+                        <div class="subtitulo mb-3">Intermedio</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+		<!-- habilidades -->
+        <section class="p-lg-5 d-flex align-items-center" id="habilidades">
+            <div class="w-100">
+                <h2 class="mt-sm-5 mt-md-5">Habilidades</h2>
+				<p class="mb-4">
+					Sé hacer varias cosas y soy bueno aprendiendo,
+					siempre busco llegar a la solución correcta y no a la más cómoda para mi. <br />
+					Lo siguiente son algunas herramientas de software con las que tengo experiencia.
+				<p>
+                <h3 class="subtitulo text-secondary mb-3">Lenguajes y herramientas</h3>
+                <div class="icono">
+                    <a title="CSS 3" data-toggle="tooltip">
+                        <img src="img/CSS3.png" alt="CSS 3" >
+                    </a>
+                    <a title="HTML 5" data-toggle="tooltip">
+                        <img src="img/HTML5.png" alt="HTML 5">
+                    </a>
+                    <a title="Javascript" data-toggle="tooltip">
+                        <img src="img/JavaScript.png" alt="JS">
+                    </a>
+                    <a title="Dart" data-toggle="tooltip">
+                        <img src="img/dart.png" alt="Dart">
+                    </a>
+                    <a title="Java" data-toggle="tooltip">
+                        <img src="img/Java.png" alt="Java">
+                    </a>
+                    <a title="MySQL" data-toggle="tooltip">
+                        <img src="img/mysql.png" alt="MySQL">
+                    </a>
+                    <a title="SQL Server" data-toggle="tooltip">
+                        <img src="img/SQL_Server.png" alt="SQL_Server">
+                    </a>
+                    <a title="C#" data-toggle="tooltip">
+                        <img src="img/cSharp.png" alt="C#">
+                    </a>
+                    <a title="Flutter" data-toggle="tooltip">
+                        <img src="img/flutter.png" alt="Flutter">
+                    </a>
+                    <a title="Android Studio" data-toggle="tooltip">
+                        <img src="img/android.png" alt="Andriod">
+                    </a>
+                    <a title="Gamemaker Studio" data-toggle="tooltip">
+                        <img src="img/GameMakerStudio.png" alt="GMS">
+                    </a>
+                    <a title="Unity" data-toggle="tooltip">
+                        <img src="img/Unity.png" alt="Unity">
+                    </a>
+                    <a title="NodeJS" data-toggle="tooltip">
+                        <img src="img/NodeJS.png" alt="NodeJS">
+                    </a>
+                </div>
+
+                <h3 class="mt-5 subtitulo text-secondary">¿Qué se hacer?</h3>
+                <ul>
+                    <li>
+                        Videojuegos
+                    </li>
+                    <li>
+                        Páginas web responsivas
+                    </li>
+                    <li>
+                        Base de datos
+                    </li>
+                    <li>
+                        Apps móviles
+                    </li>
+                    <li>
+                        Aplicaciones de escritorio
+                    </li>
+                    <li>
+                        Aplicaciones web
+                    </li>
+                </ul>
+            </div>
+		</section>
+		
+		<!-- intereses -->
+		<section class="p-lg-5 d-flex align-items-center" id="intereses">
+			<div class="w-100">
+				<h2 class="mt-sm-5 mt-md-5">Intereses</h2>
+				<p>
+					Soy un apasionado natural por la <strong>música</strong> y los <strong>videojuegos</strong>.
+					<br /> <br />
+					Siempre, desde niño, he jugado <strong><u>videojuegos</u></strong>
+					desde los flash y los de consolas pirata hasta los de consola
+					de última generación.
+					<br /> <br />
+					Sobre la <strong><u>música</u></strong>, desde niño me gustaba más allá de escucharla.
+					Lo confirmé de niño al aprender melodías en un requinto (entonces nisiquiera sabía que no era una guitarra)
+					y en una flauta.
+					<br />
+					Aprendí más académicamente de música en la preparatoria cuando 
+					aprendí a tocar la guitarra y el piano. No soy ningún erudito, pero adoro la música 
+					y disfruto cualquier genero, incluso he hecho temas musicales a modo de hobby.
+				</p>
+			</div>
+		</section>
+	</div>
+</body>
+</html>
